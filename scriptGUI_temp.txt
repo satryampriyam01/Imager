@@ -1,0 +1,2 @@
+load /Users/Cat.jpg catLoad
+brighten -90 catLoad catDark

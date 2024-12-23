@@ -1,0 +1,99 @@
+#Load
+load Snap.jpeg Snap
+
+#Save
+Save snap.jpeg Snap
+
+#blur
+blur snap snapblur
+blur snap snapblur split 70
+blur snap snapMask snapblurMask
+
+
+#brighten/darken
+brighten (int)val snap snapbright
+brighten -(int)val snap snapdark
+
+
+#Vertical-flip
+vertical-flip snap snapflip
+
+#Horizontal-flip
+horizontal-flip snap snapflip
+
+
+#rgb-split
+rgb-split snap snapRed snapBlue SnapGreen
+
+
+#rgb-combine
+rgb-combine snapCombined snapRed snapGreen SnapBlue
+
+#greyscale
+greyscale snap snapGrey
+greyscale snap snapGreySplit split 70
+greyscale snap snapMask SnapGreyMask
+
+#sharpen
+sharpen snap snapSharp
+sharpen snap snapSharpSplit split 70
+sharpen snap snapMask SnapSharpenMask
+
+#sepia
+sepia snap snapSepia
+sepia snap snapSepia split 70
+sepia snap snapMask snapSepiaMask
+
+#red-component
+red-component snap snapRed
+red-component snap snapMask snapRedMask
+
+#green-component
+green-component snap snapGreen
+green-component snap snapMask snapGreenMask
+
+#blue-component
+blue-component snap snapBlue
+blue-component snap snapMask snapBlueMask
+
+#intensity-component
+intensity-component snap snapIntensity
+intensity-component snap snapMask snapIntensityMask
+
+#luma-component
+luma-component snap snapLuma
+luma-component snap snapMask snapLumaMask
+
+#value-component
+value-component snap snapValue
+value-component snap snapMask snapValueMask
+
+#compress
+compress (int)val snap snapCompress
+
+#color-correction
+color-correct snap snapCorrection
+color-correct snap snapCorrection split 50
+
+#histogram
+Histogram snap snapHistogram
+
+#level-adjust(value black<mid<white)
+level-adjust (int)black (int)mid (int)white snap snapAdjust
+level-adjust (int)black (int)mid (int)white snap snapAdjust split 60
+
+#DownSize
+downsize cat catDownSize (int)val (int)val
+
+#MaskImage
+maskimage cat catMask (int)x (int)y (int)width (int)height
+
+#Exit
+exit
+
+
+
+
+
+ 
+

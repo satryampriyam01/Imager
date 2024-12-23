@@ -1,0 +1,8 @@
+load /Users/Cat.jpg l
+save /var/folders/h0/r3c84drn6t5_0ly_j3qr4c940000gn/T/altered_image_1203385341699368667.jpg l
+histogram l catHistogram
+save /var/folders/h0/r3c84drn6t5_0ly_j3qr4c940000gn/T/histogram_12525344275275602243.jpg catHistogram
+blur l bl
+save /var/folders/h0/r3c84drn6t5_0ly_j3qr4c940000gn/T/altered_image_3416195147926268560.jpg bl
+histogram bl catHistogram
+save /var/folders/h0/r3c84drn6t5_0ly_j3qr4c940000gn/T/histogram_14301262738938367171.jpg catHistogram

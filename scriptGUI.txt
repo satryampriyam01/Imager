@@ -1,0 +1,4 @@
+load /Users/satyampriyam/Documents/NEU /FALL 24/ 1/cat.jpeg asd
+save /var/folders/0d/p32_bsh94_5bgr2m0gsffxy80000gn/T/altered_image_17250073329473330202.jpg asd
+histogram asd catHistogram
+save /var/folders/0d/p32_bsh94_5bgr2m0gsffxy80000gn/T/histogram_14474507085971753364.jpg catHistogram
